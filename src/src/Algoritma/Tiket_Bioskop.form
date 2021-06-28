@@ -1,34 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Algoritma.Tiket_Bioskop">
-  <grid id="27dc6" binding="rootpanel" layout-manager="GridLayoutManager" row-count="26" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="rootpanel" layout-manager="GridLayoutManager" row-count="25" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="960" height="881"/>
+      <xy x="20" y="20" width="1020" height="1007"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-11906993"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="ef074" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Bernard MT Condensed" size="22" style="3"/>
+          <foreground color="-16777216"/>
           <text value="CIMEMA e-Ticket"/>
         </properties>
       </component>
       <component id="592a1" class="javax.swing.JLabel">
         <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="16"/>
+          <foreground color="-16777216"/>
           <text value="Genre"/>
         </properties>
       </component>
       <component id="22e95" class="javax.swing.JLabel">
         <constraints>
-          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="18"/>
+          <foreground color="-16777216"/>
           <text value="Paket"/>
         </properties>
       </component>
@@ -37,6 +45,8 @@
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="14"/>
+          <foreground color="-16777216"/>
           <text value="Pilihan Genre:"/>
         </properties>
       </component>
@@ -47,6 +57,9 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
           <model>
             <item value="1. Komedi"/>
             <item value="2. Horor"/>
@@ -59,9 +72,12 @@
       </component>
       <component id="b15e8" class="javax.swing.JComboBox" binding="comboxgenre">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-10064789"/>
+          <font name="Andalus" size="12"/>
+          <foreground color="-16777216"/>
           <model>
             <item value="1"/>
             <item value="2"/>
@@ -74,9 +90,12 @@
       </component>
       <component id="55bcf" class="javax.swing.JComboBox" binding="comboxpaket">
         <constraints>
-          <grid row="2" column="4" row-span="2" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="5" row-span="2" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-10064789"/>
+          <font name="Andalus" size="12"/>
+          <foreground color="-16777216"/>
           <model>
             <item value="1"/>
             <item value="2"/>
@@ -86,19 +105,24 @@
       </component>
       <component id="69197" class="javax.swing.JLabel">
         <constraints>
-          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="18"/>
+          <foreground color="-16777216"/>
           <text value="Pilihan Paket:"/>
         </properties>
       </component>
       <component id="2a21c" class="javax.swing.JList" binding="list2" default-binding="true">
         <constraints>
-          <grid row="2" column="5" row-span="3" col-span="1" vsize-policy="6" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false">
+          <grid row="2" column="6" row-span="3" col-span="1" vsize-policy="6" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
         <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="16"/>
+          <foreground color="-16777216"/>
           <model>
             <item value="1. Satu Orang"/>
             <item value="2. Lima Orang, diskon 15%"/>
@@ -113,241 +137,314 @@
       </hspacer>
       <hspacer id="74ff0">
         <constraints>
-          <grid row="2" column="6" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="7" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
       <component id="8cd40" class="javax.swing.JLabel">
         <constraints>
-          <grid row="3" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="2" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="16"/>
+          <foreground color="-16777216"/>
           <text value="Harga:"/>
         </properties>
       </component>
       <component id="71e24" class="javax.swing.JTextField" binding="textharga">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
       </component>
       <component id="e6bd3" class="javax.swing.JLabel">
         <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="16"/>
+          <foreground color="-16777216"/>
           <text value="Jumlah Orang:"/>
         </properties>
       </component>
       <component id="27fc" class="javax.swing.JTextField" binding="textjumlah">
         <constraints>
-          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
       </component>
       <component id="64943" class="javax.swing.JLabel">
         <constraints>
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="16"/>
+          <foreground color="-16777216"/>
           <text value="Total Bayar"/>
         </properties>
       </component>
       <component id="bc61d" class="javax.swing.JLabel">
         <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="16"/>
+          <foreground color="-16777216"/>
           <text value="Nama"/>
         </properties>
       </component>
       <component id="e1ab9" class="javax.swing.JLabel">
         <constraints>
-          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Nomor Genre"/>
+          <font name="Andalus" size="16"/>
+          <foreground color="-16777216"/>
+          <text value="Genre"/>
         </properties>
       </component>
       <component id="d9b5d" class="javax.swing.JTextField" binding="textnomor">
         <constraints>
-          <grid row="10" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="11" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
           <text value=""/>
         </properties>
       </component>
       <component id="25ef2" class="javax.swing.JLabel">
         <constraints>
-          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Andalus" size="16"/>
+          <foreground color="-16777216"/>
           <text value="Paket"/>
         </properties>
       </component>
       <component id="74a50" class="javax.swing.JTextField" binding="textpaket">
         <constraints>
-          <grid row="12" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="13" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
       </component>
       <component id="a5877" class="javax.swing.JTextField" binding="labelnama">
         <constraints>
-          <grid row="14" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="15" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
       </component>
       <component id="f5684" class="javax.swing.JButton" binding="buttonoke">
         <constraints>
-          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-6183002"/>
+          <font size="12"/>
+          <foreground color="-16777216"/>
           <text value="OK"/>
         </properties>
       </component>
       <component id="1238a" class="javax.swing.JTextField" binding="labelnogenre">
         <constraints>
-          <grid row="15" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="aad54" class="javax.swing.JTextField" binding="labelgenre">
-        <constraints>
-          <grid row="16" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="8c367" class="javax.swing.JTextField" binding="labelnopaket">
-        <constraints>
-          <grid row="17" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="f3a1b" class="javax.swing.JTextField" binding="labelpaket">
-        <constraints>
-          <grid row="19" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="49430" class="javax.swing.JTextField" binding="labeljumorang">
-        <constraints>
-          <grid row="18" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="43783" class="javax.swing.JTextField" binding="labelharga">
-        <constraints>
-          <grid row="20" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="1f097" class="javax.swing.JTextField" binding="labeltotbayar">
-        <constraints>
-          <grid row="21" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="47011" class="javax.swing.JTextField" binding="labelantrian">
-        <constraints>
-          <grid row="22" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+          <grid row="16" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="8c367" class="javax.swing.JTextField" binding="labelnopaket">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="f3a1b" class="javax.swing.JTextField" binding="labelpaket">
+        <constraints>
+          <grid row="19" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="49430" class="javax.swing.JTextField" binding="labeljumorang">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="43783" class="javax.swing.JTextField" binding="labelharga">
+        <constraints>
+          <grid row="20" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="1f097" class="javax.swing.JTextField" binding="labeltotbayar">
+        <constraints>
+          <grid row="21" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="47011" class="javax.swing.JTextField" binding="labelantrian">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
           <horizontalAlignment value="0"/>
           <text value=""/>
         </properties>
       </component>
-      <component id="d3797" class="javax.swing.JButton" binding="checkButton" default-binding="true">
-        <constraints>
-          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Check"/>
-        </properties>
-      </component>
       <component id="29aac" class="javax.swing.JTextField" binding="textbayar">
         <constraints>
-          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="6" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
       </component>
       <component id="58006" class="javax.swing.JTextField" binding="textnama">
         <constraints>
-          <grid row="8" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="50212" class="javax.swing.JTextField" binding="labelantrian2">
-        <constraints>
-          <grid row="23" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="9" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="50212" class="javax.swing.JTextField" binding="labelantrian2">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="12"/>
+          <foreground color="-16777216"/>
           <horizontalAlignment value="0"/>
         </properties>
       </component>
       <component id="9b6dc" class="javax.swing.JLabel">
         <constraints>
-          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="12" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="*HARAP MASUKLKAN ANGKA YANG TELAH DIPILIH"/>
         </properties>
       </component>
       <component id="cae60" class="javax.swing.JLabel">
         <constraints>
-          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <foreground color="-16777216"/>
           <text value="*HARAP MASUKLKAN ANGKA YANG TELAH DIPILIH"/>
+        </properties>
+      </component>
+      <vspacer id="38b95">
+        <constraints>
+          <grid row="24" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="aad54" class="javax.swing.JTextField" binding="labelgenre">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10064789"/>
+          <font name="Comic Sans MS" size="16"/>
+          <foreground color="-16777216"/>
         </properties>
       </component>
       <vspacer id="78347">
         <constraints>
-          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <vspacer id="38b95">
+      <component id="d3797" class="javax.swing.JButton" binding="checkButton" default-binding="true">
         <constraints>
-          <grid row="25" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
-      </vspacer>
-      <component id="a8787" class="javax.swing.JTable" binding="table1" default-binding="true">
-        <constraints>
-          <grid row="24" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties/>
+        <properties>
+          <background color="-6183002"/>
+          <font size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Check"/>
+        </properties>
       </component>
     </children>
   </grid>

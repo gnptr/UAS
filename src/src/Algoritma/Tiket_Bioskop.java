@@ -28,7 +28,6 @@ public class Tiket_Bioskop {
     private JTextField labelantrian;
     private JButton checkButton;
     private JTextField labelantrian2;
-    private JTable table1;
 
 
     public Tiket_Bioskop() {
